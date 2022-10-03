@@ -1,0 +1,27 @@
+.adoption-title {
+    background-image: linear-gradient(180deg, rgba(112, 73, 2, 0.5), transparent 40%), linear-gradient(180deg, rgba(177, 116, 2, 0.5), rgba(156, 102, 0, 0.5)), url(https://www.seattlehumane.org/wp-content/uploads/2018/08/Dog-version_banner-option.jpg);
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50vh;
+    min-height: 400px;
+    padding-bottom: 50px;
+    background-position: 0 0,0 0,50% 50%;
+    background-size: auto, auto, cover;
+    background-repeat: repeat, repeat, no-repeat;
+    position: relative;
+    width: 100%;
+}
+
+.card-image {
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.card {
+    cursor: pointer;
+}
